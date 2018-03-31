@@ -6,4 +6,4 @@ if __name__ == '__main__':
     for i in xrange(1, n+1):
         Sum += i
     end = time.time()
-    print end - start, Sum
+    print end - start
