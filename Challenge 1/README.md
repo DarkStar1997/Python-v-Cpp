@@ -3,4 +3,4 @@ In this challenge we will be testing the looping speed of C++ and Python. The lo
 
 ## Results
 
-![Results](https://github.com/DarkStar1997/Python-v-Cpp/blob/master/Challenge%201/Results.png)
+!["Figure 1"](https://github.com/DarkStar1997/Python-v-Cpp/blob/master/Challenge%201/Results.png)
