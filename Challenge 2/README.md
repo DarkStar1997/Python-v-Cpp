@@ -4,9 +4,7 @@ In this challenge we will be comparing the string concatenation test of C++ and 
 program will concatenate all the numbers from 1 to N into a single string.
 
 ## Results
-
 ![Figure 1](https://github.com/DarkStar1997/Python-v-Cpp/blob/master/Challenge%202/Results1.png)
-
 ## Lessons Learnt
 
 As evident from the results, we can see that when it comes to string concatenation, the stringstream class is much more efficient
