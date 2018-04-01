@@ -1,4 +1,7 @@
+#/usr/bin/env python
+
 import time
+
 if __name__ == '__main__':
     n = int(input())
     start = time.time()
