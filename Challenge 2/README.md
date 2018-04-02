@@ -7,7 +7,7 @@ and thus not considered as a part of the challenge.
 
 ## Results
 ![Figure 1](https://github.com/DarkStar1997/Python-v-Cpp/blob/master/Challenge%202/Results1.png)
-## Lessons Learnt
+## Conclusion
 
 As evident from the results, we can see that when it comes to string concatenation, the stringstream class is much more efficient
 than the string class in C++. This is an important point to be kept in mind while handling with strings in C++. To get the
