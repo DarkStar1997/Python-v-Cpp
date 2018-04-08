@@ -1,7 +1,7 @@
 import array
 import time
 
-n = int(input())
+n = int(input())  # type: int
 
 start = time.time()  # type: float
 
