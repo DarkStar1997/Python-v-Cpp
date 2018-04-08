@@ -1,5 +1,4 @@
 import time
-import array
 
 '''
 Strings are immutable in Python, so one of the most popular and efficient means of creating a single large string
@@ -11,7 +10,7 @@ using the join method.
 if __name__ == '__main__':
 
     n = int(input())
-    
+
     start = time.time()
 
     ''.join(map(str,xrange(1, n+1)))
