@@ -3,8 +3,10 @@ import time
 
 n = int(input())
 
-t = time.time()  # type: float
+start = time.time()  # type: float
 
-array.array('i', xrange(1,n+1)).tostring()
+array.array('i', xrange(1, n + 1)).tostring()
 
-print time.time()-t
+end = time.time()  # type: float
+
+print time.time() - end
