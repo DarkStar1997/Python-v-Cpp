@@ -6,7 +6,7 @@ and thus not considered as a part of the challenge.
 
 
 ## Results
-![Figure 1](https://github.com/DarkStar1997/Python-v-Cpp/blob/master/Challenge%202/Results1.png)
+![Figure 1](https://github.com/DarkStar1997/Python-v-Cpp/blob/master/Challenge%202/Results1_1.png)
 ## Conclusion
 
 As evident from the results, we can see that when it comes to string concatenation, the stringstream class is much more efficient
