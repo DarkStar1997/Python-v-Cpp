@@ -4,7 +4,7 @@ Printing the sum is not considered as a part of the challenge.
 
 ## Results
 
-![Figure 1](https://github.com/DarkStar1997/Python-v-Cpp/blob/master/Challenge%201/Results.png)
+![Figure 1](https://github.com/DarkStar1997/Python-v-Cpp/blob/master/Challenge%201/Results_1.png)
 ![Figure 2](https://github.com/DarkStar1997/Python-v-Cpp/blob/master/Challenge%201/Results1_1.png)
 
 ## Conclusion
