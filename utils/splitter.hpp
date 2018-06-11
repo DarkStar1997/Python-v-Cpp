@@ -2,6 +2,9 @@
 #include <vector>
 #include <fstream>
 #include <unordered_set>
+
+//This is the function to split the string text based on the delimiters stored in the variable delimiters
+
 std::vector<std::string> split(const std::string &text, std::unordered_set<char> delimiters)
 {
     std::vector<std::string> words;
@@ -10,8 +13,7 @@ std::vector<std::string> split(const std::string &text, std::unordered_set<char>
     {
         if(delimiters.find(i)!=delimiters.end())
         {
-            //if(tmp!="")
-                words.emplace_back(tmp);
+            words.emplace_back(tmp);
             tmp="";
         }
         else
@@ -23,6 +25,11 @@ std::vector<std::string> split(const std::string &text, std::unordered_set<char>
         words.emplace_back(tmp);
     return words;
 }
+
+/*Same as split but here the splitting is done on the contents of a file named filename with some delimiters and buf_size is the
+size of the buffer i.e. the number of characters read for every read operation on the file. The SPLITTER_USE_IFSTREAM macro helps
+switching between std::ifstream and fread when needed
+*/
 std::vector<std::string> file_tokenize(const std::string &filename, std::unordered_set<char> delimiters, const size_t buf_size)
 {
     #ifdef SPLITTER_USE_IFSTREAM
@@ -101,6 +108,9 @@ std::vector<std::string> file_tokenize(const std::string &filename, std::unorder
     #endif
     return sentences;
 }
+
+//Same functionality like the previous file_tokenize but here the entire file is read at once
+
 std::vector<std::string> file_tokenize(const std::string &filename, std::unordered_set<char> delimiters)
 {
     FILE *in=fopen(filename.c_str(), "r");
